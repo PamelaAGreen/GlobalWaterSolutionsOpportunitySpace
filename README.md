@@ -1,4 +1,4 @@
-# MMapping Global Solutions for a Sustainable Water Future 
+# Mapping Global Solutions for a Sustainable Water Future 
 
 <font color=red>Title: <b>Mapping Global Solutions for a Sustainable Water Future/b>
   
