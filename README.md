@@ -1,15 +1,15 @@
-# Mapping the Global Water Investment Opportunity Space for Sustainable Water Development
+# MMapping Global Solutions for a Sustainable Water Future 
 
-<font color=red>Title: <b>Mapping the Global Water Investment Opportunity Space for Sustainable Water Development</b>
+<font color=red>Title: <b>Mapping Global Solutions for a Sustainable Water Future/b>
   
   Author: DBPR 
 
-This code was developed between October 2021 and March 2023 by DBPR and includes the development and creation of all raster and tabular data included in the manuscript with same title.  </font>
+This code was developed between October 2021 and November 2023 by Pamela Green and includes the development and creation of all raster and tabular data included in the manuscript with same title.  </font>
 ***
 
 ## Model Description
 
-This code represents spatial modeling for development of a global mapping of Water Investment Needs (WIN) and Private Sector Opportunities for Investment (PrivateOI) in the water sector. WIN are defined by biogeophyscal, social and climate-driven pressures on water resources. PrivateOI are mapped as areas with high WIN and a regional capacity to attract and support private investments. The WIN and PrivateOI indices are spatially linked to populations who could benefit from improved investments in water security. The geographies of WIN and PrivateOI are compared across the globe and wealth spectrums, identifying locations where the private sector can best support water security at local, national, and regional scales.
+This code represents spatial modeling for development of a global mapping of Water Solution Needs (WSN) and Private Sector Opportunities Index (PrivateOI) in the water sector. WSN are defined by biogeophyscal, social and climate-driven pressures on water resources. PrivateOI are mapped as areas with high WIN and a regional capacity to attract and support private investments. The WSN and PrivateOI indices are spatially linked to populations who could benefit from improved investments in water security. The geographies of WSN and PrivateOI are compared across the globe and wealth spectrums, identifying locations where the private sector can best support water security at local, national, and regional scales.
 
 A brief desciption of data inputs, model and outputs is listed below:
 
@@ -34,6 +34,7 @@ A Contemporary Climate Variability indicator is developed to defined pressures f
  
 Existing Juypter Notebook code was used to create the Climate Variability CDF data which was  directly imported into this code from the Model_Input/WBM/WBM_TerraClimate2000-2020_Q_DIST_CDF_InterIntra_6min.tif. Seperate rasters for the intra- and inter- annual Climate Variability CDFs are included for completeness. 
 
+<b>Enabling Environment Indicators</b>
 
 <b>Global Innovation Index Data</b>
 
@@ -43,13 +44,13 @@ Global Innovation Index (GII) (Dutta et al 2022) is used as a proxy fro enabling
 
 Local Population for 2020 is from GPWv4 database (CIESIN 2018) and downloaded via https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-count-rev11. Downstream population was processed via a routing algorithms using the CUNY WBM RGIS system and the WBM flow data described above.
 
-<b>WIN and PrivateOI Indicators</b>
+<b>WSN and PrivateOI Indicators</b>
 
-The contemporary Climate Variability indicator is applied to the HWS and threat theme indicators from Vörösmarty et al 2010 above to create the WIN indicators measuring the combined impacts of climate variability and water threats for contemporary conditions. The spatial GII indicator is applied to the WIN indicators to create the PrivateOI indicators identifying the impacts of enabling environment state on private sector investment opportunties. WIN and PrivateOI indicators are ranked on a continuous 0-1 scale of low to high needs/opportunities using the rankCDF function in this Notebook.
+The contemporary Climate Variability indicator is applied to the HWS and threat theme indicators from Vörösmarty et al 2010 above to create the WSN indicators measuring the combined impacts of climate variability and water threats for contemporary conditions. The spatial GII indicator is applied to the WSN indicators to create the PrivateOI indicators identifying the impacts of enabling environment state on private sector investment opportunties. WSN and PrivateOI indicators are ranked on a continuous 0-1 scale of low to high needs/opportunities using the rankCDF function in this Notebook.
 
-<b>Casting Water WIN and PrivateOI in Terms of Water Resource Areas Supporting Downstream Populations</b>
+<b>Casting Water WSN and PrivateOI in Terms of Water Resource Areas Supporting Downstream Populations</b>
 
-We use the WIN and PrivateOI indicators described above to map population downstream of water source areas under varying levels of needs and opportunities. We map the geography of population downstream of water source areas under low, moderate, and high scores for each of the WIN and PrivateOI indicators under contemporary conditions. 
+We use the WSN and PrivateOI indicators described above to map population downstream of water source areas under varying levels of needs and opportunities. We map the geography of population downstream of water source areas under low, moderate, and high scores for each of the WIN and PrivateOI indicators under contemporary conditions. 
 
 
 References:
