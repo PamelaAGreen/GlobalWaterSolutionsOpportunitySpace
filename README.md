@@ -1,8 +1,8 @@
 # Mapping Global Solutions for a Sustainable Water Future
-***
+
 <font color=red>Title: Mapping Global Solutions for a Sustainable Water Future  
 Author: Pamela Green  
-Date: November 3, 2023  
+Date: November 6, 2023  
 
 This code was developed between October 2021 and November 2023 by Pamela Green and includes the development and creation of all raster and tabular data included in the manuscript with same title.  </font>
 ***
