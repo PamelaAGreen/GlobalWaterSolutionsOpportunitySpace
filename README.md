@@ -2,10 +2,9 @@
 
 <font color=red>Title: Mapping Global Solutions for a Sustainable Water Future  
 Author: Pamela Green  
-Date: November 6, 2023  
+Date: November 3, 2023  
 
 This code was developed between October 2021 and November 2023 by Pamela Green and includes the development and creation of all raster and tabular data included in the manuscript with same title.  </font>
-***
 
 The following data were downloaded, processed,and assembled during the project period. All input datasets are resampled from their native formats to 6-minute resolution GeoTIFF raster format using a standard reprojection and warping utility (GDAL Warp).
 
@@ -42,15 +41,16 @@ Global Innovation Index country score data for 2023 was downloaded from https://
 The SDG 6.5.1 IWRM implementation indicator was downloaded from the IWRM data portal at http://iwrmdataportal.unepdhi.org/. Scores were linearly rescaled and converted to a fraction (divide by 100).The IWRM data is linked to the GADM country boundaries for spatial processing.
 
 <b>Adaptive Capacity Index Data</b>
+
 The Adaptive Capacity Indicator data was downloaded from the DataDryad open repository at https://datadryad.org/stash/dataset/doi:10.5061/dryad.h2v2398. Scores were linearly rescaled and converted to a fraction (divide by 100).The IWRM data is linked to the GADM country boundaries for spatial processing.
 
 <b>WSN and PrivateOI Indicators</b>
 
-The contemporary Climate Variability indicator is applied to the HWS and threat theme indicators from Vörösmarty et al 2010 above to create the WSN indicators measuring the combined impacts of climate variability and water threats for contemporary conditions. The spatial GII indicator is applied to the WIN indicators to create the PrivateOI indicators identifying the impacts of enabling environment state on private sector investment opportunties. WIN and PrivateOI indicators are ranked on a continuous 0-1 scale of low to high needs/opportunities using the rankCDF function in this Notebook.
+The contemporary Climate Variability indicator is applied to the HWS and threat theme indicators from Vörösmarty et al 2010 above to create the WSN indicators measuring the combined impacts of climate variability and water threats for contemporary conditions. The spatial GII indicator is applied to the WSN indicators to create the PrivateOI indicators identifying the impacts of enabling environment state on private sector solution opportunties. WSN and PrivateOI indicators are ranked on a continuous 0-1 scale of low to high needs/opportunities using the rankCDF function in this Notebook.
 
-<b>Casting Water WIN and PrivateOI in Terms of Water Resource Areas Supporting Downstream Populations</b>
+<b>Casting Water WSN and PrivateOI in Terms of Water Resource Areas Supporting Downstream Populations</b>
 
-We use the WIN and PrivateOI indicators described above to map population downstream of water source areas under varying levels of needs and opportunities. We map the geography of population downstream of water source areas under low, moderate, and high scores for each of the WIN and PrivateOI indicators under contemporary conditions. 
+We use the WSN and PrivateOI indicators described above to map population downstream of water source areas under varying levels of needs and opportunities. We map the geography of population downstream of water source areas under low, moderate, and high scores for each of the WSN and PrivateOI indicators under contemporary conditions. 
 
 <b>Country Designations and Spatial Boundaries</b>
 
